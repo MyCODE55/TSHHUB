@@ -212,11 +212,11 @@ elseif get_hidden_gui then EzHub.EzHub.Parent = get_hidden_gui(); end
 
 do
 
-	EzHub.EzHub.Name = "EzHub"
+	EzHub.EzHub.Name = "TSH Hub"
 	EzHub.EzHub.Parent = game.CoreGui
 
 	EzHub.MainFrame.Name = "MainFrame"
-	EzHub.MainFrame.Parent = EzHub.EzHub
+	EzHub.MainFrame.Parent = TSHHub.TSHHub
 	EzHub.MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 	EzHub.MainFrame.BackgroundColor3 = Color3.fromRGB(41, 53, 68)
 	EzHub.MainFrame.BorderSizePixel = 0
@@ -225,14 +225,14 @@ do
 	EzHub.MainFrame.Size = UDim2.new(0, 469, 0, 315)
 
 	EzHub.TopFrame.Name = "TopFrame"
-	EzHub.TopFrame.Parent = EzHub.MainFrame
+	EzHub.TopFrame.Parent = TSHHub.MainFrame
 	EzHub.TopFrame.BackgroundColor3 = Color3.fromRGB(28, 41, 56)
 	EzHub.TopFrame.BorderSizePixel = 0
 	EzHub.TopFrame.Size = UDim2.new(1, 0, 0, 34)
 	EzHub.TopFrame.ZIndex = 3
 
 	EzHub.CloseNavButton.Name = "CloseNavButton"
-	EzHub.CloseNavButton.Parent = EzHub.TopFrame
+	EzHub.CloseNavButton.Parent = TSHHub.TopFrame
 	EzHub.CloseNavButton.AnchorPoint = Vector2.new(0.5, 0.5)
 	EzHub.CloseNavButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	EzHub.CloseNavButton.BackgroundTransparency = 1.000
