@@ -1,13 +1,18 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
-Window = Library.Main("TSH","k") -- change "LeftAlt" to key that you want will hide gui
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local GUI = Mercury:Create{
+    Name = "Mercury",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
 
---//tab
-local Tab = Window.NewTab("Blox fruits")
+local Tab = GUI:Tab{
+	Name = "Blox fruits",
+	Icon = "rbxassetid://8569322835"
+}
 
-
---//section
-local Section = Tab.NewSection("blox fruits")
---// Button
-local Button = Section.NewButton("Drainware",function()
---loadstring(game:HttpGet("https://scriptblox.com/raw/Blox-Fruits-drainware-v3-10742"))()
-end)
+Tab:Button{
+	Name = "Redz Hub",
+	Description = nil,
+	Callback = function() end
+}
