@@ -9,5 +9,5 @@ local Tab = Window.NewTab("Blox fruits")
 local Section = Tab.NewSection("blox fruits")
 --// Button
 local Button = Section.NewButton("Drainware",function()
--- loadstring(game:HttpGet("https://scriptblox.com/raw/Blox-Fruits-drainware-v3-10742"))()
+--loadstring(game:HttpGet("https://scriptblox.com/raw/Blox-Fruits-drainware-v3-10742"))()
 end)
